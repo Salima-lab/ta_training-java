@@ -47,19 +47,19 @@ public class AirportTest {
                 break;
             }
         }
-        Assert.assertEquals(hasTransportTypePlane, true);
+        Assert.assertTrue(hasTransportTypePlane);
     }
 
     @Test
     public void testGetPassengerPlaneWithMaxCapacity() {
-        System.out.println("TEST testGetPassengerPlaneWithMaxCapacity started!");
+     
         Airport airport = new Airport(planes);
         PassengerPlane expectedPlaneWithMaxPassengersCapacity = airport.getPassengerPlaneWithMaxPassengersCapacity();
         Assert.assertTrue(expectedPlaneWithMaxPassengersCapacity.equals(planeWithMaxPassengerCapacity));
     }
 
     @Test
-    public void test3() {
+    public void testIsnextPlaneMaxLoadCapacityIsHigherThanCurrent() {
         Airport airport = new Airport(planes);
         airport.sortByMaxLoadCapacity();
         List<? extends Plane> planesSortedByMaxLoadCapacity = airport.getPlanes();
@@ -86,7 +86,7 @@ public class AirportTest {
                 hasBomberTypePlane = true;
             }
             else {
-                Assert.fail("Test failed!");
+                Assert.assertEquals(militaryPlane.getType(), MilitaryType.BOMBER)) 
             }
         }
     }

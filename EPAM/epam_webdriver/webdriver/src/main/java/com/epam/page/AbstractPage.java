@@ -1,0 +1,17 @@
+package com.epam.page;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public abstract class AbstractPage {
+    public WebDriver driver;
+
+    public AbstractPage(WebDriver driver){
+        this.driver = driver;
+        PageFactory.initElements(driver,this);
+    }
+
+    public abstract AbstractPage openPage();
+    public abstract void closePage();
+
+}

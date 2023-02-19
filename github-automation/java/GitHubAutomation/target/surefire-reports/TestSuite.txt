@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 48.925 s <<< FAILURE! - in TestSuite
+testAutamaticallyFilledValuePriceEqualToManuallyFilledValuePrice(com.epam.ta.test.SearchTest)  Time elapsed: 45.955 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button id="refresh" class="md but textu f36" onclick="if(chkl())r();">...</button> is not clickable at point (292, 138). Other element would receive the click: <div id="r_parent" style="" class="r_popup">...</div>
+  (Session info: chrome=110.0.5481.104)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'GOD', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\salima\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52082}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b6359dcc4c8b835d195fbdc4a39487f9
+	at com.epam.ta.test.SearchTest.testAutamaticallyFilledValuePriceEqualToManuallyFilledValuePrice(SearchTest.java:21)
+

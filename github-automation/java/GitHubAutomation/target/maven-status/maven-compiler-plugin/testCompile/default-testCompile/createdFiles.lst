@@ -1,0 +1,12 @@
+com\epam\ta\service\UserCreator.class
+com\epam\ta\driver\DriverSingleton.class
+com\epam\ta\service\UserDataReader.class
+com\epam\ta\test\CommonConditions.class
+com\epam\ta\pages\PricingCalculatorPage.class
+com\epam\ta\util\TestListener.class
+com\epam\ta\model\User.class
+com\epam\ta\pages\MainPage.class
+com\epam\ta\test\SearchTest.class
+com\epam\ta\pages\AbstractPage.class
+com\epam\ta\pages\SearchResultsPage.class
+com\epam\ta\pages\YopmailPage.class
